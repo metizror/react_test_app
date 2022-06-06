@@ -2,7 +2,9 @@
   "name": "nina",
   "version": "0.1.0",
   "private": true,
- 
+  "engines": {
+    "node": "16.15.0"
+  },
   "homepage": "https://slidesigma.nyc/templatemonster/react/nina/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
@@ -28,7 +30,7 @@
     "react-simple-offcanvas": "^1.0.9",
     "save": "^2.4.0",
     "swiper": "^6.5.6",
-    "web-vitals": "^1 .1.1"
+    "web-vitals": "^1.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
